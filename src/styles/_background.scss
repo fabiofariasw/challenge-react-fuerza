@@ -1,25 +1,38 @@
 .c-background {
   background-color: #676C72;
+  position: relative;
 
   .__image {
     width: 100vw;
     height: 100vh;
     opacity: 43%;
     position: relative;
+    background-size: cover;
   }
 
   h1 {
     font-family: Gotham;
+    font-weight: normal;
     color: #FFFFFF;
     font-size: 50px;
     line-height: 63px;
+    margin: 0;
   }
 }
 
 .main {
   display: flex;
-  // position: absolute;
-  // top: 300px;
+  position: absolute;
+  top: 32%;
+  left: 13%;
+
+  .arrowLeft {
+    margin-right: 214px;
+  }
+
+  .arrowRight {
+    margin-left: 214px;
+  }
 
   p {
     font-family: 'Futura Medium';
@@ -27,5 +40,12 @@
     font-size: 25px;
     width: 840px;
     text-align: center;
+  }
+
+  .c-main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
   }
 }

@@ -13,23 +13,23 @@ export function Header() {
         <div>
           <ul className="__menu">
             <li className="menu-item">
-              <a href="#" target="_blank">A Empresa</a>
+              <a href="#">A Empresa</a>
             </li>
 
             <li className="menu-item">
-              <a href="#" target="_blank">Serviços</a>
+              <a href="#">Serviços</a>
             </li>
 
             <li className="menu-item">
-              <a href="#" target="_blank">Equipe</a>
+              <a href="#">Equipe</a>
             </li>
 
             <li className="menu-item">
-              <a href="#" target="_blank">Galeria</a>
+              <a href="#">Galeria</a>
             </li>
 
             <li className="menu-item">
-              <a href="#" target="_blank">Fale Conosco</a>
+              <a href="#">Fale Conosco</a>
             </li>
           </ul>
         </div>

@@ -1,21 +1,28 @@
-.button-primary {
+.btn {
+  width: 177px;
+  height: 60px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
-  font-family: 'Futura Medium';
   font-size: 20px;
-  width: 177px;
-  height: 60px;
-  border-radius: 30px;
-  border: none;
-  background: linear-gradient(to right, #00FFB1, #0062FF);
+  font-family: 'Futura Medium';
   cursor: pointer;
+  text-transform: uppercase;
+}
+
+.primary {
+  background: linear-gradient(to right, #00FFB1, #0062FF);
 
 }
 
-.button-secondary {}
+.secondary {
+  background: transparent;
+  border: 2px solid #fff;
+}
 
 button>img {
-  margin-left: 26px;
+  margin-left: 18.43px;
 }

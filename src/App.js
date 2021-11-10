@@ -27,18 +27,20 @@ export function App() {
       <Header />
       <section className="c-background">
         <img className="__image" src={bgImg} alt="" />
-        <h1>Lorem Ipsum is simply dummy!</h1>
         <div className="main">
-          <img src={arrowLeft} alt="" />
-          <p>
-            Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
-          </p>
-          <img src={arrowRight} alt="" />
+          <img className="arrowLeft" src={arrowLeft} alt="" />
+          <div className="c-main">
+            <h1>Lorem Ipsum is simply dummy!</h1>
+            <p>
+              Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+            </p>
+            <Button className="primary" />
+          </div>
+          <img className="arrowRight" src={arrowRight} alt="" />
         </div>
-          <Button className="primary"/>
       </section>
 
-      <section className="container">
+      <section className="c1-card container">
         <div className="__item">
           <img src={footballImg} alt="" />
           <h2>Lorem Ipsum is simply dummy!</h2>
@@ -64,47 +66,49 @@ export function App() {
         </div>
       </section>
 
-      <section className="container">
-          <div className="c-card">
-            <img src={laptopImg} alt="" />
-            <div className="info-category">
-              <span className="label">Category</span>
-              <span className="date">02/12/2021</span>
+      <section className="cards">
+          <div className="c2-card container">
+            <div className="card">
+              <img src={laptopImg} alt="" />
+              <div className="info-category">
+                <span className="label">Category</span>
+                <span className="date">02/12/2021</span>
+              </div>
+              <h2>Lorem Ipsum is simply dummy!</h2>
+              <p>
+                Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
+              </p>
             </div>
-            <h2>Lorem Ipsum is simply dummy!</h2>
-            <p>
-              Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
-            </p>
-          </div>
 
-          <div className="c-card">
-            <img src={monitorImg} alt="" />
-            <div className="info-category">
-              <span className="label">Category</span>
-              <span className="date">02/12/2021</span>
+            <div className="card">
+              <img src={monitorImg} alt="" />
+              <div className="info-category">
+                <span className="label">Category</span>
+                <span className="date">02/12/2021</span>
+              </div>
+              <h2>Lorem Ipsum is simply dummy!</h2>
+              <p>
+                Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
+              </p>
             </div>
-            <h2>Lorem Ipsum is simply dummy!</h2>
-            <p>
-              Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
-            </p>
-          </div>
 
-          <div className="c-card">
-            <img src={screensCodeImg} alt="" />
-            <div className="info-category">
-              <span className="label">Category</span>
-              <span className="date">02/12/2021</span>
+            <div className="card">
+              <img src={screensCodeImg} alt="" />
+              <div className="info-category">
+                <span className="label">Category</span>
+                <span className="date">02/12/2021</span>
+              </div>
+              <h2>Lorem Ipsum is simply dummy!</h2>
+              <p>
+                Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
+              </p>
             </div>
-            <h2>Lorem Ipsum is simply dummy!</h2>
-            <p>
-              Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took
-            </p>
           </div>
       </section>
 
       <section className="random">
-        <div className="container">
-          <div className="c-random">
+        <div className="c-random container">
+          <div className="conteudo-random">
             <div className="info-sub-footer">
               <h2>Lorem Ipsum is simply dummy!</h2>
               <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen </p>

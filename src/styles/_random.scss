@@ -1,6 +1,18 @@
 .random {
   background: linear-gradient(to right, #00FFB1, #0062FF);
   height: 239px;
+  display: flex;
+  align-items: center;
+}
+
+.c-random {
+  display: flex;
+  align-items: center;
+
+  .conteudo-random {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .info-sub-footer {

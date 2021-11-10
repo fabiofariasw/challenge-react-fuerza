@@ -1,3 +1,19 @@
+.cards {
+  background: #F9F9F9;
+}
+
+.c1-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0 37.7px 0;
+}
+
+.c2-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 67.5px 0 43.2px 0;
+}
+
 .__item {
   width: 332px;
   display: flex;
@@ -26,6 +42,7 @@
 }
 
 .info-category {
+  margin-top: 22px;
   display: flex;
   justify-content: space-between;
 
@@ -50,7 +67,7 @@
   }
 }
 
-.c-card {
+.card {
   width: 332px;
 
   h2 {
