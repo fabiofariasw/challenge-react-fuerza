@@ -1,0 +1,31 @@
+.c-background {
+  background-color: #676C72;
+
+  .__image {
+    width: 100vw;
+    height: 100vh;
+    opacity: 43%;
+    position: relative;
+  }
+
+  h1 {
+    font-family: Gotham;
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 63px;
+  }
+}
+
+.main {
+  display: flex;
+  // position: absolute;
+  // top: 300px;
+
+  p {
+    font-family: 'Futura Medium';
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 840px;
+    text-align: center;
+  }
+}

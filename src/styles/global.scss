@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin: auto;
+
+  @media screen and (max-width: 575px) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    width: 540px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    width: 720px;
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    width: 960px;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1399px) {
+    width: 1140px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 1320px;
+    // display: flex;
+  }
+}
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url(./fonts/futura/futura-medium-bt.ttf);
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/gotham/Gotham-Black.otf);
+}

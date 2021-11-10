@@ -1,0 +1,25 @@
+.c-header {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  // position: fixed;
+}
+
+.__menu {
+  display: flex;
+
+  li+li {
+    margin-left: 130px;
+  }
+}
+
+.menu-item {
+  list-style: none;
+
+  a {
+    color: #9D9897;
+    text-decoration: none;
+    font-family: 'Futura Medium';
+    font-size: 21px;
+  }
+}
